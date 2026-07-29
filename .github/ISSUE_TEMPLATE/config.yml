@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and ideas
+    url: https://github.com/malopestorres/markupshift/discussions
+    about: Start a discussion for usage questions and ideas that are not yet feature proposals.

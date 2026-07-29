@@ -1,0 +1,56 @@
+name: Bug report
+description: Report a reproducible problem with MarkupShift.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping improve MarkupShift.
+  - type: textarea
+    id: html
+    attributes:
+      label: HTML input
+      description: Share the smallest HTML snippet that reproduces the problem. Remove private content first.
+      render: html
+    validations:
+      required: true
+  - type: dropdown
+    id: output
+    attributes:
+      label: Output format
+      options:
+        - TypeScript / TSX
+        - JavaScript / JSX
+    validations:
+      required: true
+  - type: dropdown
+    id: strategy
+    attributes:
+      label: Component strategy
+      options:
+        - Split top-level elements
+        - Single component
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected output
+      description: What JSX or TSX did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual output
+      description: What did MarkupShift generate instead?
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      placeholder: Chrome 140, Firefox 142, Safari 19...
+    validations:
+      required: true

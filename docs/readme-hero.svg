@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title description">
+  <title id="title">MarkupShift HTML to React conversion preview</title>
+  <desc id="description">HTML input is transformed into separate React TSX component files.</desc>
+  <defs>
+    <linearGradient id="background" x1="90" y1="10" x2="1100" y2="520">
+      <stop stop-color="#15121f"/>
+      <stop offset="1" stop-color="#09090d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#c4b5fd"/>
+      <stop offset="1" stop-color="#75d7c5"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="520" rx="26" fill="url(#background)"/>
+  <circle cx="620" cy="40" r="180" fill="#765bd4" opacity=".16" filter="url(#glow)"/>
+
+  <g opacity=".13" stroke="#ffffff">
+    <path d="M0 65h1200M0 130h1200M0 195h1200M0 260h1200M0 325h1200M0 390h1200M0 455h1200"/>
+    <path d="M80 0v520M160 0v520M240 0v520M320 0v520M400 0v520M480 0v520M560 0v520M640 0v520M720 0v520M800 0v520M880 0v520M960 0v520M1040 0v520M1120 0v520"/>
+  </g>
+
+  <g transform="translate(60 58)">
+    <rect width="465" height="405" rx="16" fill="#111018" stroke="#ffffff" stroke-opacity=".14"/>
+    <rect width="465" height="50" rx="16" fill="#181620"/>
+    <path d="M0 34h465v16H0z" fill="#181620"/>
+    <circle cx="24" cy="25" r="5" fill="#6f5c78"/>
+    <circle cx="42" cy="25" r="5" fill="#494451"/>
+    <circle cx="60" cy="25" r="5" fill="#494451"/>
+    <text x="232" y="30" text-anchor="middle" fill="#77717f" font-family="ui-monospace, monospace" font-size="12">input.html</text>
+
+    <g font-family="ui-monospace, monospace" font-size="14">
+      <text x="24" y="88" fill="#514b59">01</text>
+      <text x="62" y="88" fill="#a78bfa">&lt;header</text>
+      <text x="124" y="88" fill="#8fd8c3"> class</text>
+      <text x="176" y="88" fill="#d5cadc">="site-header"</text>
+      <text x="287" y="88" fill="#a78bfa">&gt;</text>
+
+      <text x="24" y="120" fill="#514b59">02</text>
+      <text x="82" y="120" fill="#a78bfa">&lt;nav&gt;</text>
+      <text x="132" y="120" fill="#d5cadc">...</text>
+      <text x="158" y="120" fill="#a78bfa">&lt;/nav&gt;</text>
+
+      <text x="24" y="152" fill="#514b59">03</text>
+      <text x="62" y="152" fill="#a78bfa">&lt;/header&gt;</text>
+
+      <text x="24" y="200" fill="#514b59">04</text>
+      <text x="62" y="200" fill="#a78bfa">&lt;main</text>
+      <text x="112" y="200" fill="#8fd8c3"> id</text>
+      <text x="139" y="200" fill="#d5cadc">="portfolio"</text>
+      <text x="240" y="200" fill="#a78bfa">&gt;</text>
+
+      <text x="24" y="232" fill="#514b59">05</text>
+      <text x="82" y="232" fill="#a78bfa">&lt;h1&gt;</text>
+      <text x="126" y="232" fill="#d5cadc">Selected work</text>
+      <text x="234" y="232" fill="#a78bfa">&lt;/h1&gt;</text>
+
+      <text x="24" y="264" fill="#514b59">06</text>
+      <text x="82" y="264" fill="#a78bfa">&lt;button&gt;</text>
+      <text x="158" y="264" fill="#d5cadc">Explore</text>
+      <text x="219" y="264" fill="#a78bfa">&lt;/button&gt;</text>
+
+      <text x="24" y="296" fill="#514b59">07</text>
+      <text x="62" y="296" fill="#a78bfa">&lt;/main&gt;</text>
+
+      <text x="24" y="344" fill="#514b59">08</text>
+      <text x="62" y="344" fill="#a78bfa">&lt;footer&gt;</text>
+      <text x="139" y="344" fill="#d5cadc">...</text>
+      <text x="165" y="344" fill="#a78bfa">&lt;/footer&gt;</text>
+    </g>
+  </g>
+
+  <g transform="translate(548 224)">
+    <circle cx="52" cy="36" r="36" fill="#a78bfa" fill-opacity=".1" stroke="#a78bfa" stroke-opacity=".3"/>
+    <path d="M34 36h32M55 25l11 11-11 11" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="52" y="92" text-anchor="middle" fill="#8d8797" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.4">CONVERT</text>
+  </g>
+
+  <g transform="translate(675 58)">
+    <rect width="465" height="405" rx="16" fill="#111018" stroke="#ffffff" stroke-opacity=".14"/>
+    <rect width="465" height="50" rx="16" fill="#181620"/>
+    <path d="M0 34h465v16H0z" fill="#181620"/>
+    <rect x="16" y="13" width="101" height="25" rx="6" fill="#a78bfa" fill-opacity=".1"/>
+    <text x="66" y="30" text-anchor="middle" fill="#c4b5fd" font-family="ui-monospace, monospace" font-size="10">Header.tsx</text>
+    <text x="136" y="30" fill="#6f6977" font-family="ui-monospace, monospace" font-size="10">Portfolio.tsx</text>
+    <text x="238" y="30" fill="#6f6977" font-family="ui-monospace, monospace" font-size="10">Footer.tsx</text>
+
+    <g font-family="ui-monospace, monospace" font-size="14">
+      <text x="24" y="88" fill="#514b59">01</text>
+      <text x="62" y="88" fill="#c792ea">export default function</text>
+      <text x="252" y="88" fill="#82d2ba"> Header</text>
+      <text x="314" y="88" fill="#d5cadc">() {</text>
+
+      <text x="24" y="120" fill="#514b59">02</text>
+      <text x="82" y="120" fill="#c792ea">return</text>
+      <text x="132" y="120" fill="#d5cadc"> (</text>
+
+      <text x="24" y="152" fill="#514b59">03</text>
+      <text x="102" y="152" fill="#a78bfa">&lt;header</text>
+      <text x="165" y="152" fill="#8fd8c3"> className</text>
+      <text x="245" y="152" fill="#d5cadc">="site-header"</text>
+      <text x="356" y="152" fill="#a78bfa">&gt;</text>
+
+      <text x="24" y="184" fill="#514b59">04</text>
+      <text x="122" y="184" fill="#a78bfa">&lt;nav&gt;</text>
+      <text x="172" y="184" fill="#d5cadc">...</text>
+      <text x="198" y="184" fill="#a78bfa">&lt;/nav&gt;</text>
+
+      <text x="24" y="216" fill="#514b59">05</text>
+      <text x="102" y="216" fill="#a78bfa">&lt;/header&gt;</text>
+
+      <text x="24" y="248" fill="#514b59">06</text>
+      <text x="82" y="248" fill="#d5cadc">);</text>
+
+      <text x="24" y="280" fill="#514b59">07</text>
+      <text x="62" y="280" fill="#d5cadc">}</text>
+    </g>
+
+    <g transform="translate(24 332)">
+      <rect width="417" height="48" rx="9" fill="#a78bfa" fill-opacity=".07" stroke="#a78bfa" stroke-opacity=".22"/>
+      <path d="M18 18v12M13 25l5 5 5-5M12 34h12" fill="none" stroke="#a78bfa" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="39" y="29" fill="#d7cce4" font-family="ui-sans-serif, sans-serif" font-size="12" font-weight="600">Download all files</text>
+      <text x="380" y="29" text-anchor="end" fill="#716b79" font-family="ui-monospace, monospace" font-size="10">.ZIP</text>
+    </g>
+  </g>
+</svg>
